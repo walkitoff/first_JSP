@@ -28,20 +28,20 @@
     %>
 
 
-    <p class = "middle">The value of y is: <div id="y"><%= y %></span></p>
+    <p class = "middle">The value of y is: <%= y %></p>
     <br>
 
     <!--****************************-->
     <!--  HTML FORM -->
-    <div class = "wrapper two">
-        <form >
+
+    <form class = "wrapper two">
           <label for="fname">First name:</label>
           <input type="text" id="fname" name="fname"><br><br>
           <label for="lname">Last name:</label>
           <input type="text" id="lname" name="lname"><br><br>
           <input type="submit" value="Submit">
-        </form>
-    </div>
+    </form>
+
     <h1>
        <%
 
