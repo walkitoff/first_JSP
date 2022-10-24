@@ -1,0 +1,47 @@
+body {
+    top: 15%;
+	background: linear-gradient(to right, #B449DC, #1963FD);
+    margin: auto 0;
+    font-family: arial;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font: 600 3.5em sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+
+.wrapper {
+    padding: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color: #fff;
+    margin: 0px 20% 0px 20%;
+
+}
+.one {
+        background: rgba(255,255,255,0.2);
+        text-align: center;
+
+}
+.two {
+    padding: 10px 30% 10px 10px;
+}
+
+.middle {
+    text-align: left;
+    font-size: 1.5em;
+    padding-left: 20%
+}
+#y {
+    font: 600 3.5em sans-serif;
+    color: rgba(255,255,255);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
