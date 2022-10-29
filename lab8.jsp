@@ -46,19 +46,19 @@
 <!-- ______________________END FORM______________________ -->
 
         <br><br>
-        <container>
 
+       <container>
            <%
 
                 if(request.getParameter("firstname")!= null){
                     out.println("<div class = formLabel>Your First name is:</div><div>" + request.getParameter("firstname"));
                     out.println("</div>");
                 }
-//********************* COMMENT OUT LAST NAME FORM BLOCK******************************
-                 if(request.getParameter("lastname")!= null){
-                     out.println("<div class = formLabel>Your Last name is:</div><div>" + request.getParameter("lastname"));
-                     out.println("</div>");
-                }
+//** ******************* COMMENT OUT LAST NAME FORM BLOCK******************************
+//                 if(request.getParameter("lastname")!= null){
+//                     out.println("<div class = formLabel>Your Last name is:</div><div>" + request.getParameter("lastname"));
+//                     out.println("</div>");
+//                }
 //**************************************************************************************
                  if(request.getParameter("age")!= null){
                      out.println("<div class = formLabel>Your age is:</div><div>" + request.getParameter("age"));
@@ -66,11 +66,22 @@
                 }
 
             %>
+       </container>
 
-        </container>
         <br><br>
-  
-   
+        <form action="arearesults.jsp">
+              <table>
+                      <tr>
+                          <td>Area ID</td>
+                          <td><input type="text" name="area_id"></td>
+                      </tr>
+
+                      <tr>
+                          <td></td>
+                          <td align="right"><input type="submit" value="Submit"></td>
+                      </tr>
+              </table>
+         </form>
 
     </body>
 
